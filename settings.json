@@ -1,0 +1,102 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "files.associations": {
+    ".sequelizerc": "javascript"
+  },
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 12,
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 0,
+  "extensions.ignoreRecommendations": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "breadcrumbs.enabled": true,
+  "git.enableSmartCommit": true,
+  "editor.parameterHints.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "explorer.confirmDragAndDrop": false,
+  "liveshare.featureSet": "insiders",
+  "explorer.confirmDelete": false,
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "workbench.activityBar.visible": true,
+  "deepcode.api.cloudBackend": "https://www.deepcode.ai/",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "deepcode.url": "https://www.deepcode.ai",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "implemetations": "core",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "modules": "components",
+    "dtos": "typescript",
+    "seeds": "cluster",
+    "consults": "Rules"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "connection.ts": "apiblueprint",
+    "connection.js": "apiblueprint"
+  },
+  "deepcode.token": "3041e5efa146c330d5e17dde669e458a11713ceee1a2c34ae9a46d5faf2c9aae"
+}
